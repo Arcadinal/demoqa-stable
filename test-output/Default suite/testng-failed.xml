@@ -6,7 +6,7 @@
       <class name="testCase.DemoQA">
         <methods>
           <include name="setup"/>
-          <include name="Fillthetextboxform" invocation-numbers="0"/>
+          <include name="FillthePracticeform" invocation-numbers="2 3 4"/>
           <include name="flush"/>
         </methods>
       </class> <!-- testCase.DemoQA -->

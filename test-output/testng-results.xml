@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-30T15:22:53 IST" name="Default suite" finished-at="2024-11-30T15:24:58 IST" duration-ms="125065">
+  <suite started-at="2024-12-01T12:34:53 IST" name="Default suite" finished-at="2024-12-01T12:37:01 IST" duration-ms="128016">
     <groups>
     </groups>
-    <test started-at="2024-11-30T15:22:53 IST" name="Default test" finished-at="2024-11-30T15:24:58 IST" duration-ms="125065">
+    <test started-at="2024-12-01T12:34:53 IST" name="Default test" finished-at="2024-12-01T12:37:01 IST" duration-ms="128016">
       <class name="testCase.DemoQA">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCase.DemoQA@233795b6]" started-at="2024-11-30T15:22:54 IST" name="setup" finished-at="2024-11-30T15:23:19 IST" duration-ms="25266" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCase.DemoQA@3b0090a4]" started-at="2024-12-01T12:34:53 IST" name="setup" finished-at="2024-12-01T12:35:05 IST" duration-ms="11723" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Fillthetextboxform(java.lang.String,java.lang.String,java.lang.String,java.lang.String,int)[pri:0, instance:testCase.DemoQA@233795b6]" started-at="2024-11-30T15:23:19 IST" name="Fillthetextboxform" data-provider="demoqa" finished-at="2024-11-30T15:23:21 IST" duration-ms="2680" status="FAIL">
+        <test-method signature="FillthePracticeform(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int)[pri:0, instance:testCase.DemoQA@3b0090a4]" started-at="2024-12-01T12:35:05 IST" name="FillthePracticeform" data-provider="demoqa" finished-at="2024-12-01T12:35:18 IST" duration-ms="12990" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -25,96 +25,60 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[123 MG, Road, Bangalore, Karnataka]]>
+                <![CDATA[Male]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[]]>
+                <![CDATA[1234567890]]>
               </value>
             </param>
             <param index="4">
+              <value>
+                <![CDATA[23-Oct-1999]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Maths, Physics]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[123 MG, Road, Agra, Uttar Pradesh]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Name:Murugesh E
+Email:MurugeshKonar@example.com
+Current Address :123 MG, Road, Agra, Uttar Pradesh
+Permananet Address :123 MG, Road, Agra, Uttar Pradesh]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
               <value>
                 <![CDATA[1]]>
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[element click intercepted: Element <button id="submit" type="button" class="btn btn-primary">...</button> is not clickable at point (1074, 666). Other element would receive the click: <iframe frameborder="0" src="https://53a02fc00735e0b76b4840b46a316050.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html" id="google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0" title="3rd party ad content" name="" scrolling="no" marginwidth="0" marginheight="0" width="728" height="90" data-is-safeframe="true" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="private-state-token-redemption;attribution-reporting" aria-label="Advertisement" tabindex="0" data-google-container-id="1" style="border: 0px; vertical-align: bottom;" data-load-complete="true"></iframe>
-  (Session info: MicrosoftEdge=131.0.2903.70)
-Build info: version: '4.27.0', revision: 'd6e718d134'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [8e660668dd09a5b1b90dd3ab6d54f906, clickElement {id=f.CE6E409B9BFBAB6C33468BBABC5B0B15.d.63D742188A204046A26798E1E5A5B048.e.41}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.70, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:56056}, msedge: {msedgedriverVersion: 131.0.2903.70 (73cf19ceae66..., userDataDir: C:\Users\gamep\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56056/devtoo..., se:cdpVersion: 131.0.2903.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[EdgeDriver: MicrosoftEdge on windows (8e660668dd09a5b1b90dd3ab6d54f906)] -> xpath: //button[@id='submit']]
-Session ID: 8e660668dd09a5b1b90dd3ab6d54f906]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button id="submit" type="button" class="btn btn-primary">...</button> is not clickable at point (1074, 666). Other element would receive the click: <iframe frameborder="0" src="https://53a02fc00735e0b76b4840b46a316050.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html" id="google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0" title="3rd party ad content" name="" scrolling="no" marginwidth="0" marginheight="0" width="728" height="90" data-is-safeframe="true" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="private-state-token-redemption;attribution-reporting" aria-label="Advertisement" tabindex="0" data-google-container-id="1" style="border: 0px; vertical-align: bottom;" data-load-complete="true"></iframe>
-  (Session info: MicrosoftEdge=131.0.2903.70)
-Build info: version: '4.27.0', revision: 'd6e718d134'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [8e660668dd09a5b1b90dd3ab6d54f906, clickElement {id=f.CE6E409B9BFBAB6C33468BBABC5B0B15.d.63D742188A204046A26798E1E5A5B048.e.41}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.70, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:56056}, msedge: {msedgedriverVersion: 131.0.2903.70 (73cf19ceae66..., userDataDir: C:\Users\gamep\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56056/devtoo..., se:cdpVersion: 131.0.2903.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[EdgeDriver: MicrosoftEdge on windows (8e660668dd09a5b1b90dd3ab6d54f906)] -> xpath: //button[@id='submit']]
-Session ID: 8e660668dd09a5b1b90dd3ab6d54f906
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-at testCase.DemoQA.Fillthetextboxform(DemoQA.java:47)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Fillthetextboxform -->
-        <test-method is-config="true" signature="flush()[pri:0, instance:testCase.DemoQA@233795b6]" started-at="2024-11-30T15:23:21 IST" name="flush" finished-at="2024-11-30T15:23:23 IST" duration-ms="1405" status="PASS">
+        </test-method> <!-- FillthePracticeform -->
+        <test-method is-config="true" signature="flush()[pri:0, instance:testCase.DemoQA@3b0090a4]" started-at="2024-12-01T12:35:18 IST" name="flush" finished-at="2024-12-01T12:35:20 IST" duration-ms="1417" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flush -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCase.DemoQA@233795b6]" started-at="2024-11-30T15:23:23 IST" name="setup" finished-at="2024-11-30T15:23:44 IST" duration-ms="20743" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCase.DemoQA@3b0090a4]" started-at="2024-12-01T12:35:20 IST" name="setup" finished-at="2024-12-01T12:35:31 IST" duration-ms="11027" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Fillthetextboxform(java.lang.String,java.lang.String,java.lang.String,java.lang.String,int)[pri:0, instance:testCase.DemoQA@233795b6]" started-at="2024-11-30T15:23:44 IST" name="Fillthetextboxform" data-provider="demoqa" finished-at="2024-11-30T15:23:46 IST" duration-ms="2706" status="PASS">
+        <test-method signature="FillthePracticeform(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int)[pri:0, instance:testCase.DemoQA@3b0090a4]" started-at="2024-12-01T12:35:31 IST" name="FillthePracticeform" data-provider="demoqa" finished-at="2024-12-01T12:35:43 IST" duration-ms="12729" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -128,15 +92,43 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </param>
             <param index="2">
               <value>
-                <![CDATA[654, Carter Road, Mumbai, Maharashtra]]>
+                <![CDATA[Male]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[]]>
+                <![CDATA[9876543210]]>
               </value>
             </param>
             <param index="4">
+              <value>
+                <![CDATA[15-May-1978]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Maths, Physics]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[654, Carter Road, Karnal, Haryana]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Name:Satish E
+Email:Satish@example.com
+Current Address :654, Carter Road, Karnal, Haryana
+Permananet Address :654, Carter Road, Karnal, Haryana]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
               <value>
                 <![CDATA[2]]>
               </value>
@@ -144,16 +136,16 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Fillthetextboxform -->
-        <test-method is-config="true" signature="flush()[pri:0, instance:testCase.DemoQA@233795b6]" started-at="2024-11-30T15:23:46 IST" name="flush" finished-at="2024-11-30T15:23:48 IST" duration-ms="1348" status="PASS">
+        </test-method> <!-- FillthePracticeform -->
+        <test-method is-config="true" signature="flush()[pri:0, instance:testCase.DemoQA@3b0090a4]" started-at="2024-12-01T12:35:43 IST" name="flush" finished-at="2024-12-01T12:35:45 IST" duration-ms="1377" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flush -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCase.DemoQA@233795b6]" started-at="2024-11-30T15:23:48 IST" name="setup" finished-at="2024-11-30T15:24:08 IST" duration-ms="20126" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCase.DemoQA@3b0090a4]" started-at="2024-12-01T12:35:45 IST" name="setup" finished-at="2024-12-01T12:35:57 IST" duration-ms="11904" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Fillthetextboxform(java.lang.String,java.lang.String,java.lang.String,java.lang.String,int)[pri:0, instance:testCase.DemoQA@233795b6]" started-at="2024-11-30T15:24:08 IST" name="Fillthetextboxform" data-provider="demoqa" finished-at="2024-11-30T15:24:12 IST" duration-ms="4069" status="PASS">
+        <test-method signature="FillthePracticeform(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int)[pri:0, instance:testCase.DemoQA@3b0090a4]" started-at="2024-12-01T12:35:57 IST" name="FillthePracticeform" data-provider="demoqa" finished-at="2024-12-01T12:36:09 IST" duration-ms="11931" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -167,15 +159,43 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </param>
             <param index="2">
               <value>
-                <![CDATA[789, Park Avenue, New Delhi, Delhi]]>
+                <![CDATA[Male]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[]]>
+                <![CDATA[8765432102]]>
               </value>
             </param>
             <param index="4">
+              <value>
+                <![CDATA[14-Jul-1976]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Maths, Physics]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[789, Park Avenue, Delhi, NCR]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Name:Sanjay Verma
+Email:Sanjay.verma@outlook.com
+Current Address :789, Park Avenue, Delhi, NCR
+Permananet Address :789, Park Avenue, Delhi, NCR]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
               <value>
                 <![CDATA[3]]>
               </value>
@@ -183,16 +203,16 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Fillthetextboxform -->
-        <test-method is-config="true" signature="flush()[pri:0, instance:testCase.DemoQA@233795b6]" started-at="2024-11-30T15:24:12 IST" name="flush" finished-at="2024-11-30T15:24:13 IST" duration-ms="1426" status="PASS">
+        </test-method> <!-- FillthePracticeform -->
+        <test-method is-config="true" signature="flush()[pri:0, instance:testCase.DemoQA@3b0090a4]" started-at="2024-12-01T12:36:09 IST" name="flush" finished-at="2024-12-01T12:36:10 IST" duration-ms="1374" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flush -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCase.DemoQA@233795b6]" started-at="2024-11-30T15:24:13 IST" name="setup" finished-at="2024-11-30T15:24:36 IST" duration-ms="23070" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCase.DemoQA@3b0090a4]" started-at="2024-12-01T12:36:10 IST" name="setup" finished-at="2024-12-01T12:36:21 IST" duration-ms="10576" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Fillthetextboxform(java.lang.String,java.lang.String,java.lang.String,java.lang.String,int)[pri:0, instance:testCase.DemoQA@233795b6]" started-at="2024-11-30T15:24:36 IST" name="Fillthetextboxform" data-provider="demoqa" finished-at="2024-11-30T15:24:39 IST" duration-ms="2992" status="PASS">
+        <test-method signature="FillthePracticeform(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int)[pri:0, instance:testCase.DemoQA@3b0090a4]" started-at="2024-12-01T12:36:21 IST" name="FillthePracticeform" data-provider="demoqa" finished-at="2024-12-01T12:36:34 IST" duration-ms="13626" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -206,15 +226,43 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </param>
             <param index="2">
               <value>
-                <![CDATA[420, Shivaji Nagar, Mumbai, Maharastra]]>
+                <![CDATA[Male]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[]]>
+                <![CDATA[7894561230]]>
               </value>
             </param>
             <param index="4">
+              <value>
+                <![CDATA[12-May-2010]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Maths, Physics]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[420, Shivaji Nagar, Jaipur, Rajasthan]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Name:Rohit Gupta
+Email:Rohit.gupta@hotmail.com
+Current Address :420, Shivaji Nagar, Jaipur, Rajasthan
+Permananet Address :420, Shivaji Nagar, Jaipur, Rajasthan]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
               <value>
                 <![CDATA[4]]>
               </value>
@@ -222,16 +270,16 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Fillthetextboxform -->
-        <test-method is-config="true" signature="flush()[pri:0, instance:testCase.DemoQA@233795b6]" started-at="2024-11-30T15:24:39 IST" name="flush" finished-at="2024-11-30T15:24:41 IST" duration-ms="1724" status="PASS">
+        </test-method> <!-- FillthePracticeform -->
+        <test-method is-config="true" signature="flush()[pri:0, instance:testCase.DemoQA@3b0090a4]" started-at="2024-12-01T12:36:34 IST" name="flush" finished-at="2024-12-01T12:36:36 IST" duration-ms="1430" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flush -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCase.DemoQA@233795b6]" started-at="2024-11-30T15:24:41 IST" name="setup" finished-at="2024-11-30T15:24:45 IST" duration-ms="3608" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCase.DemoQA@3b0090a4]" started-at="2024-12-01T12:36:36 IST" name="setup" finished-at="2024-12-01T12:36:46 IST" duration-ms="10867" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Fillthetextboxform(java.lang.String,java.lang.String,java.lang.String,java.lang.String,int)[pri:0, instance:testCase.DemoQA@233795b6]" started-at="2024-11-30T15:24:45 IST" name="Fillthetextboxform" data-provider="demoqa" finished-at="2024-11-30T15:24:56 IST" duration-ms="11402" status="PASS">
+        <test-method signature="FillthePracticeform(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int)[pri:0, instance:testCase.DemoQA@3b0090a4]" started-at="2024-12-01T12:36:46 IST" name="FillthePracticeform" data-provider="demoqa" finished-at="2024-12-01T12:36:59 IST" duration-ms="12728" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -245,15 +293,43 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </param>
             <param index="2">
               <value>
-                <![CDATA[321, Marine Drive, Kochi, Kerala]]>
+                <![CDATA[Female]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[]]>
+                <![CDATA[8547621945]]>
               </value>
             </param>
             <param index="4">
+              <value>
+                <![CDATA[15-Dec-1969]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Maths, Physics]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[321, Marine Drive, Noida, NCR]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Name:Kavita Nair
+Email:Kavita.Nair@gmail.com
+Current Address :321, Marine Drive, Noida, NCR
+Permananet Address :321, Marine Drive, Noida, NCR]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
               <value>
                 <![CDATA[5]]>
               </value>
@@ -261,8 +337,8 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Fillthetextboxform -->
-        <test-method is-config="true" signature="flush()[pri:0, instance:testCase.DemoQA@233795b6]" started-at="2024-11-30T15:24:56 IST" name="flush" finished-at="2024-11-30T15:24:58 IST" duration-ms="1442" status="PASS">
+        </test-method> <!-- FillthePracticeform -->
+        <test-method is-config="true" signature="flush()[pri:0, instance:testCase.DemoQA@3b0090a4]" started-at="2024-12-01T12:36:59 IST" name="flush" finished-at="2024-12-01T12:37:01 IST" duration-ms="1342" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flush -->

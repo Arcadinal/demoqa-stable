@@ -88,6 +88,7 @@ public class DemoQA {
 
 		String dynamicOutput = driver.findElement(By.xpath("//div[@id='output']")).getText();
 
+		//Giving the name of the column header as Output1 to append value in that column
 		ReadExcelData1.writeToExcel(filePath, sheetName, "Output1", dynamicOutput, rowIndex);
 
 	}

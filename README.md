@@ -29,4 +29,3 @@ Welcome to the `demoqa-stable` repository! This project automates interactions w
   - [Selenium WebDriver](https://www.selenium.dev/downloads/)
   - [Google Chrome](https://www.google.com/chrome/) with a compatible version of ChromeDriver.
 
-Generated ReadME file with help of ChatGPT

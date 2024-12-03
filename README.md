@@ -8,7 +8,7 @@ Welcome to the `demoqa-stable` repository! This project automates interactions w
 
 ## **About**
 - The code may run slower than usual as it has been optimized to prevent `ElementClickInterceptedError`.
-- The project includes an integrated **AdBlocker extension** to disable ads on the webpage during tests, ensuring seamless execution.
+- The project includes an integrated **AdBlocker extension** to disable ads on the webpage during tests, ensuring seamless execution and avoiding exception.
 
 ---
 

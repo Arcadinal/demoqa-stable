@@ -18,6 +18,6 @@ public class HelperMethods {
 		element.click();
 	}
 	
-	private void scrollIntoViewAndSendKeys(WebDriver driver,By locator,String keys) {}
+	
 
 }
